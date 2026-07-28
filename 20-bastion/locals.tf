@@ -2,7 +2,7 @@ locals {
     ami_id =  data.aws_ami.joindevops.id
     common_tags = {
         Project = roboshop
-        Environment = dev
+        Environment = var.environment
         Terraform = "true"
     }
     # public subnet in 1a AZ
