@@ -10,7 +10,7 @@ terraform {
     bucket = "81s-remote-state-s3-prod"
     key    = "roboshop-vpc"
     region = "us-east-1"
-    dynamodb_table = "81s-locking-prod"
+    dynamodb_table = "81s-locking-prod-new"
   }
 }
 
